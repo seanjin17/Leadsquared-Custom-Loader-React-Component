@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Scope+One&display=swap');
+
+
+@-webkit-keyframes blue {
+  0% {background-color:#28b8e0;}
+  20% {background-color:#446499;}
+  40% {background-color:#8f4499;}
+  60% {background-color:#994d44;}
+  80% {background-color:#899944;}
+  100% {background-color:#28b8e0;}
+}
+
+@keyframes blue {
+  0% {background-color:#28b8e0;}
+  20% {background-color:#446499;}
+  40% {background-color:#8f4499;}
+  60% {background-color:#994d44;}
+  80% {background-color:#899944;}
+  100% {background-color:#28b8e0;}
+}
+@-webkit-keyframes squared {
+  0% {color:#28b8e0;}
+  20% {color:#446499;}
+  40% {color:#8f4499;}
+  60% {color:#994d44;}
+  80% {color:#899944;}
+  100% {color:#28b8e0;}
+}
+
+@keyframes squared {
+  0% {color:#28b8e0;}
+  20% {color:#446499;}
+  40% {color:#8f4499;}
+  60% {color:#994d44;}
+  80% {color:#899944;}
+  100% {color:#28b8e0;}
+}
+.LogoName{
+  position: relative;
+  font-family: 'Scope One', serif;
+  text-align: center;
+}
+.LsqLogoRoot
+{
+  padding: 1%;
+}
+.animated {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    margin:0 auto;
+    animation: MoveUpDown 3.5s linear infinite;
+    padding-bottom: 50px
+}
+.LsqLogoMainDiv
+{
+  width: 160px;
+  height: 160px;
+  position: relative;
+  margin:0 auto;
+}
+.LsqLogoMainDivAnimated
+{
+  width: 160px;
+  height: 160px;
+  position: relative;
+  margin:0 auto;
+  animation: MoveUpDown 3s linear infinite;
+    left: 42%;
+}
+.squared{
+    -webkit-animation: squared 30s infinite;
+    animation: squared 8s infinite;
+  }
+.black {
+	border-top: 90px solid transparent;
+	border-left: 90px solid #133442;
+  	position: absolute;
+  	bottom: 0;
+  	left: 0;
+}
+.white {
+	border-bottom: 90px solid transparent;
+	border-right: 90px solid whitesmoke;
+      position: absolute;
+  	bottom: 0;
+  	left: 0;
+}
+.blue {
+	background-color:#28b8e0;
+    width:160px;
+    height:160px;
+    -webkit-animation: blue 30s infinite;
+  	animation: blue 8s infinite;
+}
+  
+  @keyframes MoveUpDown {
+    0%, 100% {
+        top: 20px;
+        transform:  rotateY(0deg) rotate(0deg);
+      }
+      25% {
+        top: 35px;
+        transform:  rotateY(0deg) rotate(0deg);
+      }
+      50% {
+        top: 20px;
+        transform:  rotateY(90deg) rotate(-45deg);
+      }
+      75% {
+        top: 35px;
+        transform:  rotateY(0deg) rotate(0deg);
+      }
+  }
